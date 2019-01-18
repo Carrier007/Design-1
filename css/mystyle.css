@@ -1,0 +1,114 @@
+.top-bar{
+	background-color: #F26522;
+	padding: 5px;
+}
+.social_icon{
+	margin-right: 5px;
+	font-size: 17px; 
+	color: #fff;
+}
+.contact_info{
+	color: #fff;
+	text-align: right;
+	font-size: 16px;
+}
+.image_info{
+	width:50%;
+	margin-top: 15px;
+}
+.my_menu{
+	margin-top: 17px;
+}
+.my_menu .navbar-default{
+	border: none;
+	background: none;
+	font-weight:bold;
+}
+.my_menu .navbar-nav .active a{
+	background: #F26522;
+	color: #fff;
+}
+.my_menu .navbar-nav .active a:hover{
+	background: #F26522;
+	color: #fff;
+}
+.my_menu .navbar-nav>li>a:hover{
+	background: #F26522;
+	color: #fff;
+}
+.text{
+	text-align:justify;
+	font-family: Times New Roman;
+	font-size: 30px;
+}
+.text_p{
+	text-align:justify;
+	font-family: Times New Roman;
+	font-size: 18px;
+}
+.language{
+	margin-top:25px;
+}
+.our_courses{
+	background: radial-gradient(circle, #fff, #F26522);
+	padding: 5px 0;
+}
+.our_courses h1{
+	color: black;
+	font-family: Times New Roman;
+	font-size: 60px;
+	text-align: center;
+	font-weight:bold;
+	border-bottom: 5px solid black;
+}
+.set_text a{
+	text-align: center;
+	font-weight:bold;
+}
+.footer{
+	padding-top: 10px;
+	background-color:#333333;
+}
+.one img{
+	border: 1px solid #ddd;
+    border-radius: 4px;
+	padding: 5px;
+	background-color: orange;
+	width: 80%;
+}
+.one p{
+	color:#fff;
+	font-family: Times New Roman;
+	text-align: justify;
+	font-size: 18px;
+}
+.two h3{
+	color:#fff;
+	font-family: Times New Roman;
+	font-weight:bold;
+	font-size: 40px;
+}
+.two ul li a{
+	list-style:none;
+	font-family: Times New Roman;
+	color:#fff;
+	font-size: 18px;
+}
+.three h3{
+	color:#fff;
+	font-family: Times New Roman;
+	font-weight:bold;
+	font-size: 40px;
+}
+.three p{
+	color:#fff;
+	font-family: Times New Roman;
+	font-size: 18px;
+}
+@media (max-width:603px){
+.our_courses [class*="col-"]{
+	margin-bottom: 36px;
+}
+@media (max-width:1200px){
+	.my_menu .pull-right{float:none !important;}
+}
